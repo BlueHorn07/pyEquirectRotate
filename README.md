@@ -9,7 +9,9 @@ This code support (yaw, pitch, roll) rotation is described in this [Wikipedia pa
 I wrote the code to be `numpy`-friendly. 😉
 
 - [x] (yaw, pitch, roll) rotation
+- [x] inverse rotation
 - [x] `numpy`-friendly
+- [x] single point rotation
 
 ## Quick Start
 
