@@ -70,12 +70,13 @@ class EquirectRotate:
     self.src_Pixel = LatLon2Pixel(self.src_LonLat)  # (H, W, 2)
 
 
-def pointRotate(h, w, i, j, rotation):
+def pointRotate(h, w, index, rotation):
   """
   :param i, j: index of pixel in equirectangular
   :param rotation: (yaw, pitch, roll) in degree
   :return: rotated index of pixel
   """
+  i, j = index
   assert (0 <= i < h) and (0 <= j < w)
 
   # convert pixel index to LatLon

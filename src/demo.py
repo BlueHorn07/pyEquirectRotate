@@ -34,7 +34,7 @@ if __name__ == '__main__':
   cv2.destroyAllWindows()
 
   print("=== rotate index pixel in equirectangular ===")
-  rotated_point = pointRotate(480, 960, 240, 480, (90, 0, 0))
+  rotated_point = pointRotate(480, 960, (240, 480), (90, 0, 0))
   print(rotated_point)
 
 
