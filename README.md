@@ -4,7 +4,7 @@
 
 You can rotate equirectangular images by rotating the surface of a sphere. 🌏
 
-This code support (yaw, pitch, roll) rotation is described in this [Wikipedia page](https://en.wikipedia.org/wiki/Rotation_matrix#General_rotations).
+This code supports (yaw, pitch, roll) rotation, described in this [Wikipedia page](https://en.wikipedia.org/wiki/Rotation_matrix#General_rotations).
 
 I wrote the code to be `numpy`-friendly. 😉
 
