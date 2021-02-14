@@ -55,6 +55,6 @@ rotated_point = pointRotate(h, w, i, j, (yaw, pitch, roll))
 - Some formulas are inspired by Paul Bourke's work. [link](http://paulbourke.net/dome/dualfish2sphere/)
 - If you want more awesome omnidirectional python codes, I recommend this repository!
     - [sunset1995/py360convert](https://github.com/sunset1995/py360convert)
-        - I've forked this `py360convert`, and add `p2e`, perspective2equirectangular. [BlueHorn07/py360convert](https://github.com/BlueHorn07/py360convert), [`p2e`](https://github.com/BlueHorn07/py360convert#p2ep_img-fov_deg-u_deg-v_deg-out_hw-in_rot_deg0)
+        - I've forked this `py360convert`, and add `p2e`, perspective2equirectangular. <br/> [BlueHorn07/py360convert](https://github.com/BlueHorn07/py360convert), [`p2e`](https://github.com/BlueHorn07/py360convert#p2ep_img-fov_deg-u_deg-v_deg-out_hw-in_rot_deg0)
 - `C/C++` Equirectangular Rotation - [whdlgp/Equirectangular_rotate](https://github.com/whdlgp/Equirectangular_rotate)
     
