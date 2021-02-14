@@ -1,4 +1,3 @@
-import numpy as np
 import cv2
 
 from equirectRotate import EquirectRotate, pointRotate
@@ -36,10 +35,4 @@ if __name__ == '__main__':
   print("=== rotate index pixel in equirectangular ===")
   rotated_point = pointRotate(480, 960, (240, 480), (90, 0, 0))
   print(rotated_point)
-
-
-
-
-
-
 
