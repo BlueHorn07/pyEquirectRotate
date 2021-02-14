@@ -13,11 +13,16 @@ I wrote the code to be `numpy`-friendly. 😉
 - [x] `numpy`-friendly
 - [x] single point rotation
 
+## Demo Result
+
+![demo](https://i.imgur.com/5mUBBsp.png)
+
 ## Quick Start
 
 ```
 cd src
 python demo.py
+python demo2.py
 ```
 
 
@@ -46,9 +51,10 @@ rotated_point = pointRotate(h, w, i, j, (yaw, pitch, roll))
 
 ## Further Reading
 
-- Some formulas are inpirsed by Paul Bourke's work. [link](http://paulbourke.net/dome/dualfish2sphere/)
-- If you want more awesome omnidirectional python codes, I recommand this repository!
+- I tested my code for non-equirectangular image, for example (N, N) square version image. It still works well, moreover in inverse mapping! 🤩
+- Some formulas are inspired by Paul Bourke's work. [link](http://paulbourke.net/dome/dualfish2sphere/)
+- If you want more awesome omnidirectional python codes, I recommend this repository!
     - [sunset1995/py360convert](https://github.com/sunset1995/py360convert)
-        - I've forked this `py360convert`, and add `p2e`, perpective2equirectangular. [BlueHorn07/py360convert](https://github.com/BlueHorn07/py360convert), [`p2e`](https://github.com/BlueHorn07/py360convert#p2ep_img-fov_deg-u_deg-v_deg-out_hw-in_rot_deg0)
+        - I've forked this `py360convert`, and add `p2e`, perspective2equirectangular. [BlueHorn07/py360convert](https://github.com/BlueHorn07/py360convert), [`p2e`](https://github.com/BlueHorn07/py360convert#p2ep_img-fov_deg-u_deg-v_deg-out_hw-in_rot_deg0)
 - `C/C++` Equirectangular Rotation - [whdlgp/Equirectangular_rotate](https://github.com/whdlgp/Equirectangular_rotate)
     
